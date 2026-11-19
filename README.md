@@ -40,3 +40,9 @@ Upload the contents of this folder to the repository root so `index.html` is dir
 
 ## Privacy
 A public repository and GitHub Pages site can be viewed by anyone with the URL. Upload only media that both people are comfortable sharing.
+
+
+## Final-page response buttons
+The final page (page16.html) contains four response buttons connected to the Google Form supplied by the site owner. The selected answer is submitted in a hidden iframe, so the visitor stays on the apology website. The page tells the visitor that the selection will be shared with Kuttu. Google Forms does not provide this page with a readable cross-origin submission receipt, so test all four choices in the published site and confirm they appear in the form's Responses tab before sharing the website. Do not treat the on-page thank-you message as proof that Google recorded the response.
+
+A “Start from the beginning” link is included in the navigation on pages 2–16.
