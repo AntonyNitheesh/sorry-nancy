@@ -1,41 +1,42 @@
-# For Nancy — 11-page memory and apology website
+# For Nancy — memory and apology website
 
-## Media files (exactly 5 images + 10 video clips)
+This version contains 16 pages:
+- Page 1: cover photo
+- Pages 2, 5, 7 and 9: four individual photo memories
+- Pages 3, 4, 6, 8 and 10–15: ten individual video memories
+- Page 16: text-only apology and promise (no photo or video)
 
-### Images — add exactly these 5 files to `images/`
-- `cover.jpg` — favourite cover photo
-- `memory-01.jpg` — first meeting in Trivandrum
-- `memory-02.jpg` — first movie, Obsession at Lulu Mall
-- `memory-03.jpg` — Funtura day
-- `memory-04.jpg` — Ponmudi trip
+## Add exactly 5 photos
+Put these files in `images/`:
+- `cover.jpg` — the fifth image / cover photo (choose the photo you want Nancy to see first)
+- `memory-01.jpg` — Varkala
+- `memory-02.jpg` — your night meet
+- `memory-03.jpg` — last meet at the train
+- `memory-04.jpg` — night meet / the moment your eyes spoke
 
-### Videos — add exactly these 10 short MP4 files to `videos/`
-Each clip should be about 2 seconds long. The clips appear one per page on pages 2–11.
-- `clip-01.mp4` — page 2
-- `clip-02.mp4` — page 3
-- `clip-03.mp4` — page 4
-- `clip-04.mp4` — page 5
-- `clip-05.mp4` — page 6
-- `clip-06.mp4` — page 7 (Varkala ride)
-- `clip-07.mp4` — page 8 (train-station memory)
-- `clip-08.mp4` — page 9
-- `clip-09.mp4` — page 10
-- `clip-10.mp4` — page 11
+## Add exactly 10 videos
+Put these MP4 files in `videos/`. Each clip should be about 2 seconds:
+- `clip-01.mp4` — not yet described; use the clip you want as the first video memory
+- `clip-02.mp4` — Varkala
+- `clip-03.mp4` — her driving while you sit behind
+- `clip-04.mp4` — an outing together
+- `clip-05.mp4` — Funtura
+- `clip-06.mp4` — your outings
+- `clip-07.mp4` — the two of you hiding your faces shyly
+- `clip-08.mp4` — happiness together while out
+- `clip-09.mp4` — the happiest ride of your life
+- `clip-10.mp4` — the two of you together
 
-All clips are configured to autoplay, loop, and play inline, muted. Muted autoplay is generally required by mobile browsers. The video controls remain available so Nancy can turn the sound on manually. Actual autoplay can still be restricted by browser/device settings.
-
-## Add your media
-Put the five image files in `images/` and the ten video files in `videos/`, using the exact filenames above. Use MP4 (H.264 video + AAC audio) for broad mobile compatibility. Keep each clip around 2 seconds and preferably 720p or smaller to keep the website fast.
+## Important media notes
+- Use the exact filenames above, including lowercase letters and hyphens.
+- Use MP4 (H.264 video + AAC audio) for best mobile compatibility.
+- Videos are set to autoplay muted, loop and play inline. Browsers may still block autoplay in some circumstances; tapping play will start them.
+- To hear audio, Nancy can unmute the video using its controls.
+- Photos and videos use `object-fit: contain` and preserve their proportions. Nothing is stretched or cropped.
+- The site does not include your personal media. Add your own files to the folders before uploading.
 
 ## Publish with GitHub Pages
-Upload the contents of this folder to the repository root (so `index.html` is at the root). In GitHub, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+Upload the contents of this folder to the repository root so `index.html` is directly at the top level. In GitHub, choose Settings → Pages → Deploy from a branch → `main` → `/(root)`.
 
 ## Privacy
-A public GitHub repository and GitHub Pages site can be viewed by anyone who has the URL (and potentially discovered publicly). Only upload photos and videos that both people are comfortable sharing.
-
-
-## Photo and video display
-The photo styles preserve the original image proportions (no forced square or 4:3 crop).
-Your four 9:16 photos will remain portrait, and the 16:9 photo will remain landscape.
-The 9:16 videos keep their portrait proportions and are constrained to a mobile-friendly
-maximum width. No image or video is stretched to fill a mismatched shape.
+A public repository and GitHub Pages site can be viewed by anyone with the URL. Upload only media that both people are comfortable sharing.
